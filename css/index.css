@@ -11,14 +11,6 @@ main {
     height: 100%;
     padding-bottom: 56px;
 }
-.masthead {
-  font-family: 'Montserrat', sans-serif !important;
-  height: 50px;
-  min-height: 500px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 body {
   height:100%;
   width: 100%;
@@ -29,16 +21,6 @@ body {
 @font-face {
   font-family: Montserrat;
   src: url('/font/Montserrat-Regular.ttf');
-}
-.mcheadder{
-  font-family: Montserrat !important;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  background-color:rgba(0, 0, 0, 0.4);
-  padding:8px;
 }
 .maintext{
   text-align: center;
@@ -54,6 +36,10 @@ body {
 .navbar-brand{
   font-family: Montserrat !important;
   color:black!important;
+  margin-left:50px;
+}
+.nav-link{
+  margin-right:50px;
 }
 .image-containter {
     margin: auto;
