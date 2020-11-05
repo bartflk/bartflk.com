@@ -1,0 +1,309 @@
+/* Made By https://mortnsn.com/ All Rights Reserved 2020 Â© */
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    background:white; 
+    font-family: "Poppins",sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  br::selection{background:transparent;}
+  
+  
+  /*Javascripts*/
+  .kevin-mortensen-2{opacity: 0;} 
+   /*Javascripts*/
+  
+  /* TAB */
+  .tab-aboutme a{
+    cursor: pointer;
+    color:#F44336;
+    border-bottom:2px #F44336 solid;
+  }
+  /* TAB */
+  
+  
+  .kevin-mortensen-2{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    height: 100vh;
+    right: 0px;
+    width: 35px;
+    z-index: 1;
+  }
+  .kevin-mortensen-2-turn{
+    width: 0px;
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 150px;
+  }
+  .kevin-mortensen-2 p{
+    font-size: 9px;
+    font-weight: 600;
+    width: 400px;
+    padding-top: 4px;
+  }
+  .k-1{
+    width: 200px;
+    position: absolute;
+  }
+  .k-1 p{margin: 0;}
+  .k-2{
+    width: 50px;
+    left: 300px;
+    position: absolute;
+  }
+  .k-2 p{margin: 0;}
+  .kevin-mortensen-2 p::selection{text-decoration: none;}
+  
+   
+  
+  .container{
+    width: 85%;
+    margin:auto;
+    height:100vh;
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  /*LEFT CONTAINER*/ 
+  .container-left{
+    width: 65%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+  } 
+  .container-left-1{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .projects-title{
+    width: auto;
+    display: flex;
+    height: 111px;
+  }
+  .projects-title p{
+    margin: 0;
+    font-size: 100px;
+    font-weight: 900;
+    margin: auto;
+    width: 100%;
+  }
+  .projects-title p::selection{color: #F44336;text-decoration:none;}
+  #title-text{color: transparent;-webkit-text-stroke: 1.5px #F44336;}
+  #title-text::selection{color: #F44336;-webkit-text-stroke: 0px;}
+  .container-left-box{width: auto;}
+  .projects{
+    width: 85%;
+    max-width: 550px;
+    height:auto;
+  }
+  .projects p{
+    color: black;
+    margin: 0px;
+    font-weight: 500;
+    font-size: 28px;
+  }
+  .projects p::selection{color: white;background-color: black;}
+  #text-style{font-weight:500;color:#F44336;}
+  #text-style::selection{background-color: black;}
+  .more-info{max-width: 550px;}
+  .more-info p{
+    font-size: 14px;
+    color: #A7A7A7;
+    font-weight: 500;
+    margin: 0px;
+    margin-top: 4px;
+  }
+  .more-info p::selection{color: white;background-color: black;}
+  .more-info span::selection{color: white; background-color: black;}
+  
+  
+  /*LEFT CONTAINER*/ 
+  
+  
+  
+  /*RIGHT CONTAINER*/ 
+  .container-right{
+    width: 45%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+  }
+  .box-image{
+    width: 100%;
+    height: 75vh;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+  }
+   
+  .image{
+    width: 100%;
+    height: 100vh;
+    background: url(https://mortnsn.com/projects/mortnsn/IMG_8218.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 60% 50%;
+    z-index: -1;
+  }
+  /*RIGHT CONTAINER*/ 
+  
+  /* DESKTOP */  
+  @media screen and (min-height: 900px){
+  .container{width:80%;max-width: 1500px} 
+  .projects-title p{font-size: 80px;}
+  .more-info{ max-width: 650px;margin-right: 160px;}
+  .projects{max-width: 650px;}
+  
+  }
+  
+  @media screen and (min-height: 900px) and (max-width: 1100px){
+  .projects-title p{font-size: 65px;}
+  .projects p{font-size: 26px;}
+  .container-right {width: 40%;}
+  .box-image{height: 70vh;}
+  
+  
+  }
+  /* DESKTOP */ 
+  
+  
+  
+  
+  /* DESKTOP MOBILE */ 
+  @media screen and (min-height: 900px) and (max-width: 950px){
+  
+  .container-right,.box-image,.image,.projects-title,.kevin-mortensen-2{display: none;}
+  
+  .container{width:100%;} 
+  .container-left{
+    width:100%;
+    height:auto;
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end; 
+  }
+  .container-left-1{
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end; 
+    height: 75vh;
+  }
+  #title-text{color: transparent;-webkit-text-stroke: 1px white;}
+  .projects {
+    width: 85%;
+    margin:auto;
+    max-width: 700px;
+  }
+  .projects p{color: black;font-size: 30px;}
+  .projects p::selection{color:white;}
+  #text-style{font-weight:500;color:#F44336;}
+  #text-style::selection{color:#F44336;}
+  .more-info{
+    width:85%;
+    max-width: 700px;
+    margin:auto;
+  }
+  .more-info p{font-size: 13px;}
+  
+  }
+  
+  /* DESKTOP MOBILE */ 
+    
+  
+  
+  
+  /* LAPTOP */ 
+  @media screen and (max-height: 900px) {
+  .container-left-1 {height: 80vh;}
+  
+  .projects-title p{font-size: 70px;}
+  .projects {width: 100%;}
+  .projects p{font-size: 23px;}
+  
+  .more-info {margin-right: 160px;}
+  .more-info p {font-size: 12px;}
+  
+  .container-right {width: 50%;}
+  .box-image{height: 70vh;}
+  }
+  
+  @media screen and (max-height: 900px) and (max-width: 1100px) {
+  
+  .container{width:90%;}
+  .container-left-1 {height: 85vh;}
+  .projects {width: 85%;}
+  .more-info {margin-right: 70px;}
+  .box-image{height: 80vh;}
+  }
+  /* LAPTOP */ 
+  
+  
+  
+  /* LAPTOP MOBILE */ 
+  @media screen and (max-height: 900px) and (max-width: 850px) {
+  
+  .container-right,.box-image,.image,.kevin-mortensen-2,.projects-title{display: none;}
+  
+  .container{width:100%;} 
+  .container-left{
+    width:100%;
+    height:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  .container-left-1{
+    display:flex;
+    align-items: center;
+    justify-content:space-between; 
+    height: 65vh; 
+  }
+   
+  #title-text{color: transparent;-webkit-text-stroke: 1px white;}
+  .projects { 
+    width: 84%;
+    margin:auto;
+    max-width: 700px;
+  }
+  .projects p{color: black;font-size: 25px;}
+  .projects p::selection{color:white;}
+  #text-style{font-weight:500;color:#F44336;}
+  #text-style::selection{color:#F44336;}
+  .more-info{ 
+    width:84%;
+    max-width: 700px;
+    margin:auto;
+  }
+  .more-info p{font-size: 12px;}
+  }
+  
+  
+  /* Potrait mode MOBILE */ 
+  @media screen and (max-height: 600px) and (max-width: 850px){
+  .container-left-1{
+    justify-content: center; 
+    height: 60vh;
+    padding-bottom:100px;
+  }
+  .projects {padding-bottom: 20px;padding-top: 80px;}
+  .projects p{color: black;font-size: 25px;}
+  
+  }
+  /* Potrait mode MOBILE */ 
+  /* LAPTOP MOBILE */ 
+  
+  
+  
+  /* Made By https://mortnsn.com/ All Rights Reserved 2020 Â© */
