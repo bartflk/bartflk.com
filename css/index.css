@@ -227,10 +227,13 @@ body {
 }
 .contact-linkedin {
   width: 100%;
-  text-align: right;
   margin: auto;
 
 }
 a {
   background-color: transparent;
+}
+
+::selection {
+  color: #F44336;
 }
