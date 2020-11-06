@@ -212,7 +212,6 @@ body {
   font-weight: 800;
   color: transparent;
   font-size: 5vh;
-  transition: 0.2s all ease-in-out;
   -webkit-text-stroke: 1.5px #F44336;
   line-height: 4.5vh;
 }
