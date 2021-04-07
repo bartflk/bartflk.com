@@ -45,14 +45,13 @@ body {
 }
 .maintext{
   text-align: center;
-  color:black;
   font-size: 20px !important;
-  font-family: Bebas !important;
-  background-color:rgba(0, 0, 0, 0.1);
+  font-family: Montserrat !important;
+  color:black!important;
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 15px;
-  height: 550px;
+  height: 100%;
 }
 .navbar-brand{
   font-family: Montserrat !important;
