@@ -77,13 +77,13 @@ body {
     .image {
         width: 70vh;
         height: 75vh;
-        background: url(/img/placeholdermain.jpg);
+        background: url(/img/main.jpg);
         background-size: cover;
         background-position: center;
 
     }
     .imageabout {
-      width: 70vh;
+      width: 100%;
       height: 75vh;
       background: url(/img/placeholderpfp.jpg);
       background-size: cover;
@@ -235,3 +235,21 @@ a {
 ::selection {
   color: #F44336;
 }
+.container{
+  height: 100%;
+  width: 100%;
+}
+.margindiv{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.box-image{
+  padding: 4vh;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 950px) {
+  .box-image {  
+    display: none;
+   }
+ }
