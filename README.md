@@ -2,7 +2,7 @@
 Personal portofolio website, focus is more on the style of it.
 
 Site preview// 
-![Website image](https://imgur.com/a/D5PGFZV)
+![Website image](https://i.imgur.com/w1u4Guv.png)
 
 Fixed: 
 Mobile lay out
