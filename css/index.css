@@ -181,8 +181,7 @@ body {
 }
 
 .more-info {
-  max-width: 650px;
-  margin-right: 160px;
+  font-size: 21px!important;
 }
 .projects-title{
   width: auto;
@@ -197,7 +196,7 @@ body {
   width: 100%;
 }
 .projects{
-  width: 85%;
+  width: 100%;
   max-width: 550px;
   height:auto;
 }
