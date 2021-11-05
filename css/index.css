@@ -267,8 +267,14 @@ a {
     
   }
   .image-box{
-
     border-right-width: 15px;
-    right: 15px;
+    right: 0px;
+    width: auto;
+  }
+  .image-containter{
+    width: 100%;
+  }
+  .image{
+    width: 52vh!important;
   }
 }
