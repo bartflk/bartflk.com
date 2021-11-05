@@ -264,8 +264,11 @@ a {
   .text-box-2 {
     float: left;
     width: 80%;
+    
   }
-  .image{
-    width: 100%;
+  .image-box{
+
+    border-right-width: 15px;
+    right: 15px;
   }
 }
